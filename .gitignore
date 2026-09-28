@@ -1,0 +1,28 @@
+# Obsidian local/workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~$*
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Local tooling
+.vscode/
+.idea/
