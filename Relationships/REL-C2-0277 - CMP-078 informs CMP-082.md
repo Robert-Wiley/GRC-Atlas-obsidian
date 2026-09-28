@@ -1,0 +1,50 @@
+---
+relationship_id: "REL-C2-0277"
+record_type: "grc_relationship"
+source: "CMP-078"
+source_domain: "Compliance"
+relationship_type: "informs"
+target: "CMP-082"
+target_domain: "Compliance"
+confidence: "Confirmed"
+strength: "Strong"
+criticality: "Moderate"
+propagation_potential: "Moderate"
+directionality: "Unidirectional"
+temporal_state: ""
+maturity: ""
+assurance: ""
+drift: ""
+friction: ""
+canonical_source: "https://app.notion.com/3c3b68b5cdb8811b9ac6ce17b38c4960"
+atlas_authoritative: true
+---
+
+# CMP-078 informs CMP-082
+
+**Source:** [[Compliance/CMP-078 - Compliance Finding Development]]
+
+**Relationship:** informs
+
+**Target:** [[Compliance/CMP-082 - Corrective Action Requirement Definition]]
+
+## State
+- Confidence: Confirmed
+- Strength: Strong
+- Criticality: Moderate
+- Propagation potential: Moderate
+- Directionality: Unidirectional
+- Temporal state: 
+- Maturity: 
+- Assurance: 
+- Drift: 
+- Friction: 
+
+## Evidence Basis
+CMP-082 lists CMP-078 upstream | CMP-078 lists CMP-082 downstream
+
+## Analyst Notes
+Canonical CMP-Topology-v0.2; provenance: Semantic reconstruction
+
+## Governance note
+This note mirrors the canonical GRC Relationship Registry. Obsidian is the relational-discovery layer; Notion remains authoritative.
