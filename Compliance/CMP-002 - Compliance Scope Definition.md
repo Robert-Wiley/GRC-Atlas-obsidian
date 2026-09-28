@@ -1,25 +1,27 @@
 ---
-id: CMP-002
-domain: Compliance
-record_type: research_object
-status: canonical-staging
-canonical_source: https://app.notion.com/p/3c1b68b5cdb8810a85faf88316edb69a
-pilot_import: true
+id: "CMP-002"
+domain: "Compliance"
+record_type: "grc_object"
+status: "Seed"
+evidence_confidence: "Exploratory"
+primary_class: ""
+family: "Compliance Context"
+research_priority: ""
+whitepaper_potential: ""
+canonical_source: "https://app.notion.com/3c0b68b5cdb88181acd3f05304f68a03"
+atlas_authoritative: true
 ---
 
 # CMP-002 — Compliance Scope Definition
 
-## Canonical Definition
-Defines the organizational subjects and activities included in a compliance evaluation or program.
+## Canonical metadata
+**Domain:** Compliance  
+**Class / family:** Compliance Context  
+**Status:** Seed  
+**Evidence confidence:** Exploratory
 
-## Purpose
-Prevent ambiguity about what is being evaluated for conformity.
+## Relationship layer
+Canonical relationships are represented as first-class notes in the `Relationships/` directory. Obsidian backlinks provide the object-to-relationship view.
 
-## Boundaries
-Defines subject coverage, not legal applicability or shared-responsibility ownership.
-
-## Canonical Relationships
-- [[Relationships/REL-C2-0001 - CMP-001 informs CMP-002]]
-
-## Source note
-Canonical staging source remains authoritative in the GRC Atlas.
+## Governance note
+Notion / GRC Atlas remains the authoritative source. This note is a versioned relational representation for Obsidian graph exploration.

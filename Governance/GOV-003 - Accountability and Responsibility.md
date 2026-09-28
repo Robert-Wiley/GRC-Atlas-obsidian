@@ -1,26 +1,36 @@
 ---
-id: GOV-003
-domain: Governance
-record_type: research_object
-status: canonical-staging
-canonical_source: https://app.notion.com/p/3c1b68b5cdb881f0afebd42ee29bab0c
-pilot_import: true
+id: "GOV-003"
+domain: "Governance"
+record_type: "grc_object"
+status: "Seed"
+evidence_confidence: "Exploratory"
+primary_class: "Accountability"
+family: "Accountability"
+research_priority: "1 - Highest"
+whitepaper_potential: "Flagship"
+canonical_source: "https://app.notion.com/3c0b68b5cdb881558278ec830c80fe12"
+atlas_authoritative: true
 ---
 
 # GOV-003 — Accountability and Responsibility
 
-## Scope
-Covers ownership of decisions, processes, risks, controls, assets, data, services, issues, actions, and organizational outcomes; includes role clarity, RACI/RASCI patterns, consequence management, and accountability escalation.
+## Canonical metadata
+**Domain:** Governance  
+**Class / family:** Accountability  
+**Status:** Seed  
+**Evidence confidence:** Exploratory
 
-## Boundaries
-Does not itself perform assigned work. Governance establishes who is answerable for outcomes and who is responsible for execution.
+## Canonical Definition
+Establishes ownership for decisions, activities, controls, outcomes, assets, processes, and obligations across the enterprise.
 
-## Core Mechanisms
-- Role charters and accountability statements
-- RACI/RASCI and ownership matrices
-- Control, risk, process, asset, and data ownership
-- Performance and consequence mechanisms
-- Escalation and reassignment rules
+## Purpose
+Ensures responsibilities are explicit and outcomes can be traced to accountable actors.
 
-## Source note
-Canonical staging source remains authoritative in the GRC Atlas.
+## Scope Boundary
+Defines ownership and accountability; performance of the underlying work remains with the assigned operational or functional role.
+
+## Relationship layer
+Canonical relationships are represented as first-class notes in the `Relationships/` directory. Obsidian backlinks provide the object-to-relationship view.
+
+## Governance note
+Notion / GRC Atlas remains the authoritative source. This note is a versioned relational representation for Obsidian graph exploration.

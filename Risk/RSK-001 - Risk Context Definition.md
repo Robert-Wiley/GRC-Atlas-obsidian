@@ -1,25 +1,27 @@
 ---
-id: RSK-001
-domain: Risk
-record_type: research_object
-status: canonical-staging
-canonical_source: https://app.notion.com/p/3c1b68b5cdb881a4a809c9b5b485cc8c
-pilot_import: true
+id: "RSK-001"
+domain: "Risk"
+record_type: "grc_object"
+status: "Seed"
+evidence_confidence: "Exploratory"
+primary_class: ""
+family: "Risk Context"
+research_priority: ""
+whitepaper_potential: ""
+canonical_source: "https://app.notion.com/3c0b68b5cdb881ad94b9d1fd6f7f1949"
+atlas_authoritative: true
 ---
 
 # RSK-001 — Risk Context Definition
 
-## Canonical Definition
-Risk Context Definition establishes the internal and external conditions that give meaning to a risk analysis, including objectives, environment, stakeholders, assumptions, dependencies, constraints, and decision setting.
+## Canonical metadata
+**Domain:** Risk  
+**Class / family:** Risk Context  
+**Status:** Seed  
+**Evidence confidence:** Exploratory
 
-## Purpose
-Prevent risk estimates from being interpreted outside the conditions for which they were developed.
+## Relationship layer
+Canonical relationships are represented as first-class notes in the `Relationships/` directory. Obsidian backlinks provide the object-to-relationship view.
 
-## Boundary Conditions
-Risk defines analytical context; Governance establishes organizational direction, authority, appetite, tolerance, and oversight. Compliance determines mandatory obligations that may become contextual constraints.
-
-## Canonical Relationships
-- [[Relationships/REL-0236 - GOV-001 informs RSK-001]]
-
-## Source note
-Canonical staging source remains authoritative in the GRC Atlas.
+## Governance note
+Notion / GRC Atlas remains the authoritative source. This note is a versioned relational representation for Obsidian graph exploration.

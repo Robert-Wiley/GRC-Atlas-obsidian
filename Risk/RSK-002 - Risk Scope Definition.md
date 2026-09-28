@@ -1,22 +1,27 @@
 ---
-id: RSK-002
-domain: Risk
-record_type: research_object
-status: canonical-staging
-canonical_source: https://app.notion.com/p/3c1b68b5cdb88192ab60fe2ac5cfe96c
-pilot_import: true
+id: "RSK-002"
+domain: "Risk"
+record_type: "grc_object"
+status: "Seed"
+evidence_confidence: "Exploratory"
+primary_class: ""
+family: "Risk Context"
+research_priority: ""
+whitepaper_potential: ""
+canonical_source: "https://app.notion.com/3c0b68b5cdb88111bd50c94b1e502ebe"
+atlas_authoritative: true
 ---
 
 # RSK-002 — Risk Scope Definition
 
-## Canonical Definition
-Risk Scope Definition establishes the explicit boundaries of the risk analysis by identifying the system, objective, process, asset, decision, population, geography, organizational unit, and time frame included or excluded.
+## Canonical metadata
+**Domain:** Risk  
+**Class / family:** Risk Context  
+**Status:** Seed  
+**Evidence confidence:** Exploratory
 
-## Purpose
-Ensure that the analysis answers a bounded question and that its conclusions are not generalized beyond the analyzed system.
+## Relationship layer
+Canonical relationships are represented as first-class notes in the `Relationships/` directory. Obsidian backlinks provide the object-to-relationship view.
 
-## Boundary Conditions
-Risk defines the analytical scope; Governance determines organizational authority and decision rights over the scoped subject. Compliance may impose non-negotiable scope requirements.
-
-## Source note
-Canonical staging source remains authoritative in the GRC Atlas.
+## Governance note
+Notion / GRC Atlas remains the authoritative source. This note is a versioned relational representation for Obsidian graph exploration.

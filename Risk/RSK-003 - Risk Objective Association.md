@@ -1,22 +1,27 @@
 ---
-id: RSK-003
-domain: Risk
-record_type: research_object
-status: canonical-staging
-canonical_source: https://app.notion.com/p/3c1b68b5cdb881458a1dec465bdb7da6
-pilot_import: true
+id: "RSK-003"
+domain: "Risk"
+record_type: "grc_object"
+status: "Seed"
+evidence_confidence: "Exploratory"
+primary_class: ""
+family: "Risk Context"
+research_priority: ""
+whitepaper_potential: ""
+canonical_source: "https://app.notion.com/3c0b68b5cdb881ca8de1d0421b12e98f"
+atlas_authoritative: true
 ---
 
 # RSK-003 — Risk Objective Association
 
-## Canonical Definition
-Risk Objective Association links identified uncertainty and exposure to the specific organizational, mission, operational, financial, compliance, safety, or stakeholder objectives that may be affected.
+## Canonical metadata
+**Domain:** Risk  
+**Class / family:** Risk Context  
+**Status:** Seed  
+**Evidence confidence:** Exploratory
 
-## Purpose
-Ensure risk is analyzed as potential effect on objectives rather than as an isolated hazard, issue, or control deficiency.
+## Relationship layer
+Canonical relationships are represented as first-class notes in the `Relationships/` directory. Obsidian backlinks provide the object-to-relationship view.
 
-## Boundary Conditions
-Governance establishes objectives; Risk determines how uncertainty may affect them. Compliance defines mandatory obligations that may themselves be objectives or constraints.
-
-## Source note
-Canonical staging source remains authoritative in the GRC Atlas.
+## Governance note
+Notion / GRC Atlas remains the authoritative source. This note is a versioned relational representation for Obsidian graph exploration.

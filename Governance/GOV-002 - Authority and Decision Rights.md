@@ -1,27 +1,36 @@
 ---
-id: GOV-002
-domain: Governance
-record_type: research_object
-status: canonical-staging
-canonical_source: https://app.notion.com/p/3c1b68b5cdb88185a380ef3beecaf58b
-pilot_import: true
+id: "GOV-002"
+domain: "Governance"
+record_type: "grc_object"
+status: "Seed"
+evidence_confidence: "Exploratory"
+primary_class: "Authority"
+family: "Authority"
+research_priority: "1 - Highest"
+whitepaper_potential: "Flagship"
+canonical_source: "https://app.notion.com/3c0b68b5cdb88137b32bc939dd3e92b0"
+atlas_authoritative: true
 ---
 
 # GOV-002 — Authority and Decision Rights
 
-## Scope
-Covers formal and delegated authority, decision rights, approval thresholds, reserved powers, escalation authority, exception authority, spending authority, contracting authority, risk acceptance authority, and emergency powers.
+## Canonical metadata
+**Domain:** Governance  
+**Class / family:** Authority  
+**Status:** Seed  
+**Evidence confidence:** Exploratory
 
-## Boundaries
-Does not perform the substantive analysis behind a decision. Governance determines who may decide; Risk, Compliance, Finance, Legal, Operations, or other domains supply analysis.
+## Canonical Definition
+Defines who has the legitimate authority to make specific decisions, approve actions, accept obligations, allocate resources, or create exceptions.
 
-## Core Mechanisms
-- Delegation-of-authority matrices
-- Approval and signature thresholds
-- Reserved matters and board authorities
-- Risk acceptance and exception authority
-- Escalation paths and emergency powers
-- Segregation of duties and dual-control rules
+## Purpose
+Prevents ambiguity, unauthorized action, bottlenecks, and conflicts by aligning decision rights with accountability.
 
-## Source note
-Canonical staging source remains authoritative in the GRC Atlas.
+## Scope Boundary
+Governance assigns authority; the substantive analysis supporting a decision may belong to risk, compliance, finance, operations, or another discipline.
+
+## Relationship layer
+Canonical relationships are represented as first-class notes in the `Relationships/` directory. Obsidian backlinks provide the object-to-relationship view.
+
+## Governance note
+Notion / GRC Atlas remains the authoritative source. This note is a versioned relational representation for Obsidian graph exploration.
